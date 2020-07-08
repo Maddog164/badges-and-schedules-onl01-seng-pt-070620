@@ -27,6 +27,8 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
+  batch_badge_creator(speakers)
+  assign_rooms(speakers)
   speakers.each_with_index do |name, index|
     puts badge_msgs[index]
     puts room_assign[index]
