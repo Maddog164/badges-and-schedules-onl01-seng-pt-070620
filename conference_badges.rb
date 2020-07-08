@@ -13,7 +13,7 @@ end
 def batch_badge_creator(speakers)
   badge_msgs=[]
   speakers.each do |name|
-    badge_msgs.push("Hello, my name is #{name}")
+    badge_msgs.push("Hello, my name is #{name}.")
   end
   return badge_msgs
 end
