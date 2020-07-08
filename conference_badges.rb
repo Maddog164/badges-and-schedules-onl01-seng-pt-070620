@@ -1,9 +1,9 @@
 #def badge_maker(name)
 #  puts "Hello, my name is #{name}"
 #end
-speakers=["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
+#speakers=["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
-def badge_maker(speakers)
+def badge_maker(speakers=["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"])
   speakers.each do |name|
     message = "Hello, my name is #{name}."
   end
