@@ -31,7 +31,7 @@ def printer(speakers)
   #puts assign_rooms(speakers)
   speakers.each_with_index do |name,index|
     puts (batch_badge_creator(speakers)[index])
-    puts assign_rooms(speakers)
+    puts (assign_rooms(speakers)[index])
     #puts badge_msgs
     #puts room_assign
   end
