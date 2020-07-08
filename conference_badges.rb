@@ -26,7 +26,7 @@ def assign_rooms(speakers)
   return room_assign
 end
 
-def printer(speakers,badge_msgs,room_assign)
+def printer(speakers)
   speakers.each_with_index do |name, index|
     puts badge_msgs[index]
     puts room_assign[index]
